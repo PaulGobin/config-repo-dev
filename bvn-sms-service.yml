@@ -1,4 +1,7 @@
 ## configs specific to bvn-sms-service 
+
+DATABASE-SERVER: SQLBilling
+
 sms:
   haywire:
     admin:
