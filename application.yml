@@ -4,7 +4,7 @@ organization:
 
 spring:
   datasource:
-    url: jdbc:jtds:sqlserver://${DATABASE-SERVER:Localhost}/${DATABASE:SCS};TDS=8.0;appName=${APP-NAME:NA};namedPipe=false;autoReconnect=true;autoReconnectForPools=true
+    url: jdbc:jtds:sqlserver://${DATABASE-SERVER:Localhost}/${DATABASE:MYDB};TDS=8.0;appName=${APP-NAME:NA};namedPipe=false;autoReconnect=true;autoReconnectForPools=true
     driver-class-name: net.sourceforge.jtds.jdbc.Driver
     username: ${DB-USERNAME:sa}
     password: ${DB-PASSWORD:password}
