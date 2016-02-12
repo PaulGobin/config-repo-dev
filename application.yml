@@ -9,6 +9,17 @@ spring:
     username: ${DB-USERNAME:sa}
     password: ${DB-PASSWORD:password}
     maximum-pool-size: 30
+    testOnBorrow: true
+    test-on-borrow: true
+    validationQuery: SELECT 1
+  
+  jpa: 
+    database-platform: org.hibernate.dialect.SQLServerDialect
+    generate-ddl: true
+    show-sql: false
+    hibernate:
+      naming_strategy: org.hibernate.cfg.EJB3NamingStrategy
+      
   cloud:
     config:
       uri: http://localhost:8888
