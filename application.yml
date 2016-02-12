@@ -1,9 +1,13 @@
+organization:
+  name: Broadview Networks
+  url: www.BroadviewNet.com
+
 spring:
   datasource:
-    url: ${rdbm.server_url}/bvnsms
+    url: jdbc:jtds:sqlserver://${DATABASE-SERVER:Localhost}/${DATABASE:SCS};TDS=8.0;appName=${APP-NAME:NA};namedPipe=false;autoReconnect=true;autoReconnectForPools=true
     driver-class-name: net.sourceforge.jtds.jdbc.Driver
-    username: aa
-    password: bbb
+    username: ${DB-USERNAME:sa}
+    password: ${DB-PASSWORD:password}
     maximum-pool-size: 30
   cloud:
     config:
