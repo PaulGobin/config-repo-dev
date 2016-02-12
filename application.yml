@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: ${rdbm.server_url}/bvnsms
+    driver-class-name: net.sourceforge.jtds.jdbc.Driver
+    username: aa
+    password: bbb
+    maximum-pool-size: 30
+  cloud:
+    config:
+      uri: http://localhost:8888
