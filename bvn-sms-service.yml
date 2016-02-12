@@ -1,6 +1,8 @@
 ## configs specific to bvn-sms-service 
 
 DATABASE-SERVER: SQLBilling
+DATABASE: BVNSMS
+APP-NAME: ${spring.application.name}
 
 sms:
   haywire:
