@@ -9,3 +9,4 @@ sms:
     admin:
       account-id: DD6C8800-5655-41DE-9F54-E5F2678E52A6-xj1q
       auth-token: CE596F14-7968-4BA9-84CA-19B14207642C-xj1q
+  rest-endpoint: https://sandbox.heywire.com/api/4.2
