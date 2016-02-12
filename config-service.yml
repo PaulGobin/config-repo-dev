@@ -1,0 +1,4 @@
+logging:
+  level:
+    org.springframework.boot.env.PropertySourcesLoader: TRACE
+    org.springframework.cloud.config.server: DEBUG
