@@ -1,12 +1,12 @@
 ## configs specific to bvn-sms-service 
 
-DATABASE-SERVER: SQLBilling
+DATABASE-SERVER: SQL<xxx>
 DATABASE: BVNSMS
 APP-NAME: ${spring.application.name}
 
 sms:
   haywire:
     admin:
-      account-id: DD6C8800-5655-41DE-9F54-E5F2678E52A6
-      auth-token: CE596F14-7968-4BA9-84CA-19B14207642C
-    rest-endpoint: https://sandbox.heywire.com/api/4.2
+      account-id: TEST-DD6C8800-5655-41DE-9F54-E5F2678E52A6-$
+      auth-token: TEST-CE596F14-7968-4BA9-84CA-19B14207642C-$
+    rest-endpoint: https://ABC/api/4.2
